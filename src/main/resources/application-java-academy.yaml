@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/java_academy
+    username: postgres
+    password: terrrr
+    driver-class-name: org.postgresql.Driver
+    schema: ./schema-postgresql.sql
+  sql:
+    init:
+      mode: always

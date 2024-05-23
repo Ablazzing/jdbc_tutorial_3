@@ -1,0 +1,1 @@
+create table public.spring_test(name varchar(100));
